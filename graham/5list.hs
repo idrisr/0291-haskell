@@ -105,4 +105,4 @@ pyths n = [(x, y, z) | x<-[1..n],
                        z<-[1..(x+y)], x^2+y^2==z^2]
 
 perfects :: Int -> [Int]
-perfects n = [i | i<-[1..n], (sum $ factors i) == i*2]
+perfects n = [i | i<-[1..n], (sum $ init $ factors i) == i]
