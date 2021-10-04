@@ -1,0 +1,31 @@
+
+/home/idris/0291-haskell/graham/ch7/src/Higher.hs,356
+module Higher Higher0,1
+mp mp4,5
+flter flter7,8
+flter1 flter110,11
+fldr fldr16,17
+snoc snoc22,23
+revers revers25,26
+fldl fldl27,28
+cmp cmp36,37
+type Bit Bit39,40
+bin2int bin2int40,41
+int2bin int2bin43,44
+make8 make847,48
+encode encode50,51
+chop8 chop853,54
+decode decode57,58
+transmit transmit60,61
+channel channel63,64
+
+/home/idris/0291-haskell/graham/ch7/Setup.hs,15
+main main1,2
+
+/home/idris/0291-haskell/graham/ch7/test/Main.hs,125
+module Main Main0,1
+prop_code prop_code5,6
+prop_i2b prop_i2b8,9
+dum dum11,12
+prop_mp prop_mp14,15
+main main17,18

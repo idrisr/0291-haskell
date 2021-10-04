@@ -63,3 +63,8 @@ transmit = decode . channel . encode
 
 channel :: [Bit] -> [Bit]
 channel = id
+
+unfold :: (a->[b]) -> (a->[b]) ->
+unfold p h t x 
+  | p x = []
+  | otherwise = h x : unfold p h t (t x)
