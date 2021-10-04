@@ -1,3 +1,5 @@
+module Higher where
+
 import Data.Char
 
 mp :: (a->b) -> [a] -> [b]
