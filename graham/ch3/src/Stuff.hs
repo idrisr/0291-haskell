@@ -1,3 +1,7 @@
+module Stuff where
+
+prop_double_swap :: [Int] -> Bool
+prop_double_swap xs = (reverse $ reverse xs) == xs
 
 add :: Int -> Int -> Int -> Int
 add x y z = x + y + z
