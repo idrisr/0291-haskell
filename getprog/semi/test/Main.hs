@@ -19,8 +19,11 @@ instance Arbitrary (Color) where
 prop_sg_color :: Color->Color->Color->Bool
 prop_sg_color x y z = (x <> y ) <> z == x <> (y <>z)
 
+prop_sg_int :: Int->Int->Int->Bool
+prop_sg_int x y z = (x <> y ) <> z == x <> (y <>z)
 
 main :: IO ()
 main = do
     quickCheck prop_a
     quickCheck prop_sg_color
+    quickCheck prop_sg_int
